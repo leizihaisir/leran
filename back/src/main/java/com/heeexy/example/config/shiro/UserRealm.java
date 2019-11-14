@@ -1,6 +1,5 @@
 package com.heeexy.example.config.shiro;
 
-import com.alibaba.fastjson.JSONObject;
 import com.heeexy.example.service.LoginService;
 import com.heeexy.example.util.constants.Constants;
 import org.apache.shiro.SecurityUtils;
@@ -12,7 +11,6 @@ import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Collection;
 
